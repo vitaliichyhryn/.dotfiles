@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Terminal utilities
+alias \
+    c="clear" \
+
+# File utilities
+alias \
+    cp="cp -irv" \
+    mv="mv -iv" \
+    r="rm -vI" \
+    rr="rm -frvI" \
+    md="mkdir -pv" \
+    
+# Directory listing
+alias \
+    ls="ls --color=auto --group-directories-first" \
+    l="ls -F" \
+    la="ls -AF" \
+    ll="ls -hlAF" \
+    lla="ls -hlAF"
+
+# Text utilities
+alias \
+    diff="diff --color=auto" \
+    grep="grep --color=auto"
+
+# System utilities
+alias \
+    ka="killall" \
+    
+# Network utilities
+alias \
+    ip="ip --color=auto"
