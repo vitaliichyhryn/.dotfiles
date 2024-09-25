@@ -32,3 +32,7 @@ alias \
 # Network utilities
 alias \
     ip="ip --color=auto"
+
+# Coding
+alias \
+    py="python"
