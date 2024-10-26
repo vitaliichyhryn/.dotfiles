@@ -8,8 +8,8 @@ alias \
 alias \
     cp="cp -irv" \
     mv="mv -iv" \
-    r="rm -vI" \
-    rr="rm -frvI" \
+    r="rm -v" \
+    rr="rm -frv" \
     md="mkdir -pv" \
     
 # Directory listing
