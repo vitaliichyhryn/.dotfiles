@@ -35,4 +35,5 @@ alias \
 
 # Coding
 alias \
-    py="python"
+    py="python" \
+    e="neovim"
