@@ -36,4 +36,4 @@ alias \
 # Coding
 alias \
     py="python" \
-    e="nvim"
+    vi="nvim"
