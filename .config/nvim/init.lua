@@ -863,3 +863,9 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Move lines up and down
+vim.keymap.set('n', '<A-k>', ':m .+1<CR>==', { desc = 'Move current line down' })
+vim.keymap.set('n', '<A-l>', ':m .-2<CR>==', { desc = 'Move current line up' })
+vim.keymap.set('v', '<A-k>', ":m '>+1<CR>gv=gv", { desc = 'Move selected block of lines down' })
+vim.keymap.set('v', '<A-l>', ":m '<-2<CR>gv=gv", { desc = 'Move selected block of lines up' })
