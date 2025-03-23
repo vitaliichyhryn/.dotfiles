@@ -11,7 +11,7 @@
 1. Clone the repository into your home directory
  
 ```bash
-git clone --recurse-submodules git@github.com:chyhrynvitalii/dotfiles.git ~/.dotfiles
+git clone --recurse-submodules git@github.com:chyhrynvitalii/.dotfiles.git
 cd ~/.dotfiles
 ```
 
