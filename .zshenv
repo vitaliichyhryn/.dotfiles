@@ -1,8 +1,8 @@
-EDITOR=nvim
-GIT_EDITOR=$EDITOR
+export ZDOTDIR=$HOME/.config/zsh
 
-ZDOTDIR=$HOME/.config/zsh
+export EDITOR=nvim
+export GIT_EDITOR=$EDITOR
 
-PATH=$PATH:$HOME/.go/bin
+export PATH=$PATH:$HOME/.go/bin
 fpath+=("$ZDOTDIR/pure")
 . "$HOME/.cargo/env"
