@@ -34,8 +34,8 @@ do
 done
 
 # Prompt
+fpath+=($ZDOTDIR/pure)
 PURE_PROMPT_SYMBOL="→"
-
 autoload -U promptinit
 promptinit
 prompt pure
