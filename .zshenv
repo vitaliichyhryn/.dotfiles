@@ -1,5 +1,5 @@
 export ZDOTDIR=$HOME/.config/zsh
-fpath+=("$ZDOTDIR/pure")
+fpath+=($ZDOTDIR/pure)
 
 export EDITOR=nvim
 export GIT_EDITOR=$EDITOR
