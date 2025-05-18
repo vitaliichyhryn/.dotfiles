@@ -6,6 +6,7 @@ return {
         path = '~/notes/',
         syntax = 'markdown',
         ext = '.md',
+        index = 'Index',
       },
     }
     vim.g.vimwiki_global_ext = 0
