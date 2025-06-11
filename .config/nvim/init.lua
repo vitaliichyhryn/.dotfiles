@@ -593,4 +593,4 @@ require('lazy').setup({
 
 -- Ukrainian langmap
 vim.o.langmap =
-  [[ЙЦУКЕНГШЩЗФІВАПРОЛДЖЯЧСМИТЬБЮ\,;QWERTYUIOPASDFGHJKL:ZXCVBNM<>?,йцукенгшщзфівапролджячсмитьбю.;qwertyuiopasdfghjkl\;zxcvbnm\,./]]
+  [[йцукенгшщзфівапролджячсмитьбю.;qwertyuiopasdfghjkl\;zxcvbnm\,./,ЙЦУКЕНГШЩЗФІВАПРОЛДЖЯЧСМИТЬБЮ;QWERTYUIOPASDFGHJKL:ZXCVBNM<>]]
