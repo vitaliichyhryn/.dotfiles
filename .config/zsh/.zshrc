@@ -22,6 +22,9 @@ setopt appendhistory \
 	hist_save_no_dups \
 	hist_find_no_dups
 
+# Autocd
+setopt autocd
+
 # Plugins
 Plugins=(
 	"/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
