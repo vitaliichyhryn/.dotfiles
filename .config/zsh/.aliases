@@ -3,6 +3,7 @@
 # Terminal utilities
 alias \
     c="clear" \
+    e="exit"
 
 # File utilities
 alias \
@@ -10,15 +11,15 @@ alias \
     mv="mv -iv" \
     r="rm -v" \
     rr="rm -frv" \
-    md="mkdir -pv" \
-    
+    md="mkdir -pv"
+
 # Directory listing
 alias \
-    ls="ls --color=auto --group-directories-first" \
-    l="ls -F" \
-    la="ls -AF" \
-    ll="ls -hlAF" \
-    lla="ls -hlAF"
+    ls="ls --color=auto --group-directories-first -F" \
+    l="ls" \
+    la="ls -A" \
+    ll="ls -hl" \
+    lla="ls -hlA"
 
 # Text utilities
 alias \
@@ -28,7 +29,7 @@ alias \
 # System utilities
 alias \
     ka="killall" \
-    
+
 # Network utilities
 alias \
     ip="ip --color=auto"
