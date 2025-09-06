@@ -16,10 +16,8 @@ alias \
 # Directory listing
 alias \
     ls="ls --color=auto --group-directories-first -F" \
-    l="ls" \
-    la="ls -A" \
-    ll="ls -hl" \
-    lla="ls -hlA"
+    l="ls -A" \
+    ll="ls -hlA"
 
 # Text utilities
 alias \
