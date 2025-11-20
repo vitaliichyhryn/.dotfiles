@@ -9,8 +9,8 @@ alias \
 alias \
     cp="cp -irv" \
     mv="mv -iv" \
-    r="rm -v" \
-    rr="rm -frv" \
+    r="rm -Iv" \
+    rr="rm -Ifrv" \
     md="mkdir -pv"
 
 # Directory listing
